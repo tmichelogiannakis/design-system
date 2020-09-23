@@ -26,12 +26,12 @@ StoryLinkWrapper.propTypes = {
   className: PropTypes.string,
   href: PropTypes.string,
   onClick: PropTypes.func,
-  to: PropTypes.string,
+  to: PropTypes.string
 };
 
 StoryLinkWrapper.defaultProps = {
   className: '',
   href: null,
   onClick: () => {},
-  to: null,
+  to: null
 };
